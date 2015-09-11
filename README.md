@@ -22,4 +22,4 @@ Semi-sequential universally unique identifiers
   })
 ```
 
-TODO: `node-uuid` looks to be encoding the time bit in little-endian, which marginally decreases the monotonicity properties you want for optimal btree inserts.
+TODO: `node-uuid` looks to be encoding the time bits in little-endian, which marginally decreases the monotonicity properties you want for optimal btree inserts.
