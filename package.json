@@ -1,6 +1,6 @@
 {
   "name": "squuid",
-  "version": "1.0.0-pre",
+  "version": "1.0.0",
   "description": "Semi-sequential universally unique identifiers",
   "main": "index.js",
   "scripts": {
