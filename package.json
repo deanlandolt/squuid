@@ -1,0 +1,34 @@
+{
+  "name": "squuid",
+  "version": "1.0.0-pre",
+  "description": "Semi-sequential universally unique identifiers",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanlandolt/squuid.git"
+  },
+  "keywords": [
+    "uuid",
+    "sequential",
+    "btree",
+    "id",
+    "base64-lex"
+  ],
+  "author": "Dean Landolt <dean@deanlandolt.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deanlandolt/squuid/issues"
+  },
+  "homepage": "https://github.com/deanlandolt/squuid#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "base64-lex": "^1.0.0",
+    "node-uuid": "^1.4.3"
+  }
+}
